@@ -4,3 +4,11 @@ _site
 .vscode
 .idea
 .DS_Store
+
+
+_config.yml 修改主页上的信息，例如博客名等等
+
+_posts 放的是博客的文件 命名格式年-月-日-文章标题.markdown
+
+index 修改 home界面的信息
+page 文件中放的是最上面的链接的内容
