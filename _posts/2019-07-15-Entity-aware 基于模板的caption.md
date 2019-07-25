@@ -3,7 +3,7 @@ layout: post
 title:  "Entity-aware Image Caption Generation"
 date:   2019-07-15 22:14:54
 categories: caption论文解读
-tags: 基于模板的caption论文解读 
+tags: 基于模板的caption 2018年 EMNLP
 ---
 * content
 {:toc}
