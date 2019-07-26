@@ -7,7 +7,7 @@
 
 # Site settings
 title: Jankin Tian
-brief-intro: caption
+brief-intro: 欲为诸佛龙象，先做众生马牛。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jankintian.github.io" # the base hostname & protocol for your site
 
