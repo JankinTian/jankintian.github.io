@@ -1,14 +1,13 @@
 ﻿---
 layout: post
-title:  "Deliberate Attention Networks for Image Captioning Lianli”
-date:   2019-07-24 16:14:54
+title:  "Deliberate Attention Networks for Image Captioning"
+date:   2019-07-31 10:18:54
 categories: 论文解读
-tags: caption attention 精细化
+tags: caption attention 精细化 
 ---
 
 * content
 {:toc}
-
 ---
 deliberate ：深思熟虑的，有意识的
 attention在编码器的隐藏状态和视觉注意力是必不可少的一次性前进任务。但是缺少deliberate action。
@@ -38,4 +37,4 @@ The first-pass基于残差的关注层准备隐藏状态和视觉注意以生成
 ## 图像表示
 使用预训练的ResNet101提取全局视觉特征，
 Faster R-CNN生成边界框，再用预训练的ResNet-101提取L区域特征。
------->>>>>>>>>生成L+1个图像特征{$v_0$,V}
+------>>>>>>>>>生成L+1个图像特征{$v_0,V$}, $v_0$ 是全局特征，$V=(v_1,...,v_L)$是L个区域特征。
