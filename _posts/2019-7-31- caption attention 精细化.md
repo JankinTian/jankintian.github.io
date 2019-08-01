@@ -3,7 +3,7 @@ layout: post
 title:  "Deliberate Attention Networks for Image Captioning"
 date:   2019-07-31 10:18:54
 categories: 论文解读
-tags: caption attention 精细化 
+tags: caption attention 精细化 2019年 AAAI 
 ---
 
 * content
