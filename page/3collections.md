@@ -11,8 +11,8 @@ type: page
 
 ### caption News Dataset
 * [BreakingNews](http://www.iri.upc.edu/groups/perception/#BreakingNews)
-  [Train/Test/Val splits](http://www.iri.upc.edu/people/aramisa/BreakingNews/)
-* [GoodNews]
+  其中的[Train/Test/Val splits](http://www.iri.upc.edu/people/aramisa/BreakingNews/)
+* [GoodNews](https://github.com/furkanbiten/GoodNews)根据提供的URL下载数据
 
 ## 工具
 
