@@ -24,12 +24,18 @@ tags:    caption attention 2019年 AAAI
 
 # Methodology
 > CNN-RNN机制：
-(1)CNN：提取4个不同的特征 global features V<sub>g</sub>, patch features V<sub>p</sub>, object features V<sub>o</sub> and text features V<sub>t</sub> 来建立层次特征。
-(2)RNN：指导生成attention 和 caption sequences.
-RNN包含 visual LSTM 和 language LSTM.
-visual LSTM：利用 image 的全局特征和不同的attention 机制生成不同的attention 特征 A<sub>p</sub>、A<sub>o</sub>、A<sub>t</sub>
-language LSTM：指导caption生成。
-(3)为了更好的利用attention的特征，我们使用 MRM 来提取不同特征之间的关系。
+>
+>(1)CNN：提取4个不同的特征 global features V<sub>g</sub>, patch features V<sub>p</sub>, object features V<sub>o</sub> and text features V<sub>t</sub> 来建立层次特征。
+>
+>(2)RNN：指导生成attention 和 caption sequences.
+>
+>RNN包含 visual LSTM 和 language LSTM.
+>
+>visual LSTM：利用 image 的全局特征和不同的attention 机制生成不同的attention 特征 A<sub>p</sub>、A<sub>o</sub>、A<sub>t</sub>
+>
+>language LSTM：指导caption生成。
+>
+>(3)为了更好的利用attention的特征，我们使用 MRM 来提取不同特征之间的关系。
 
 ![blob](https://i.loli.net/2019/09/02/KxZTJYhdt5Vojpg.png)
 ![blob](https://i.loli.net/2019/09/02/9TYB6rAwWX75Rhe.png)
