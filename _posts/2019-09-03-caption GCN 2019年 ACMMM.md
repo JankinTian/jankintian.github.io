@@ -17,10 +17,10 @@ tags:    caption GCN 2019年 ACMMM
 > 本文的主要贡献：
 >
 >* 1、提出来视觉语义单元(visual senmantic units)【VSUs】 作为综合表达视觉内容，利用结构化图，即语义图和几何图，和GCNs对其进行统一表示.
-
-VSUs包含三个部分**object units, attribute units, 和 relationship units**.
-
-句子包含syntactic units（句法单元）描述**对象**(e.g. nouns phrase)，**属性**(e.g. adjectives)，和**关系**(e.g. verb, prepositions)
-
+>
+>VSUs包含三个部分**object units, attribute units, 和 relationship units**.
+>
+>句子包含syntactic units（句法单元）描述**对象**(e.g. nouns phrase)，**属性**(e.g. adjectives)，和**关系**(e.g. verb, prepositions)
+>
 >* 2、视觉语言的关联和设计是一种对语言单词和视觉语义单元进行分层排列的文本门控注意力模块。
 
