@@ -3,7 +3,7 @@ layout: post
 title:  "Attention on Attention for Image Captioning"
 date:   2019-10-20 10:18:54
 categories: 论文解读
-tags:    caption Transfomer 2020年 ICCV
+tags:    caption Transfomer 2019年 ICCV
 ---
 
 * content
